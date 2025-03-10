@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>RMAS - Insurance Brokers</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!--claims table-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo_head.png" rel="icon">
+  <link href="assets/img/logo_head.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  
+
+  <!-- CSS for Styling & Animation -->  
+  <style>  
+    .faq-title {  
+      display: flex;  
+      justify-content: space-between;  
+      align-items: center;  
+      cursor: pointer;  
+      padding: 15px;  
+      background: #f8f9fa;  
+      border-radius: 10px;  
+      transition: background 0.3s ease;  
+    }  
+
+    .faq-title:hover {  
+      background: #e9ecef;  
+    }  
+
+    .faq-title h4 {  /* Corrected to h4 */  
+      flex-grow: 1;  
+      margin: 0 10px;  
+      font-size: 16px;  
+    }  
+
+    .faq-title i {  
+      font-size: 18px;  
+      transition: transform 0.3s ease;  
+    }  
+
+    .faq-content {  
+      display: none;  
+      padding: 15px;  
+      background: #fff;  
+      border-radius: 10px;  
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+      transition: all 0.3s ease;  
+    }  
+
+    .faq-content.show {  
+      display: block;  
+    }  
+
+    .faq-item {  
+      margin-bottom: 15px;  
+      border-radius: 10px;  
+      overflow: hidden;  
+    }  
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">  
+        <!-- Uncomment the line below if you also wish to use an image logo -->  
+        <img src="assets/img/logo_head.png" alt="ERMAS Logo" class="logo-head">  
+        <h1 class="sitename">RMAS</h1>  
+      </a>  
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#features">Partners</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <il><a href="news.html">News</a></il>
+          <li><a href="https://rmasbroker.com/">Logo in</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-12">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h3><strong>Risk Management & Advisory Services Limited-RMAS</strong></h3>
+            <p>RMAS objective is to provide unique insurance brokerage service and legal advisory services, using a state-of-the-art system that provides quality service to the insuring public.</p>
+            <div class="d-flex">
+              <a href="https://rmasbroker.com/" class="btn-get-started">Member Logo</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 d-flex justify-content-center light-background align-items-center">
+            <img src="assets/img/joyup.png" class="img-fluid" alt="Joyup Logo">
+          </div>
+    
+          
+        </div>
+      </div>
+
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+            <div class="d-flex justify-content-center align-items-center flex-wrap gap-3 mt-5">
+                <a href="https://www.facebook.com/rmasbroker" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-facebook"></i> Facebook
+                </a>
+                <a href="https://www.linkedin.com/company/risk-management-advisory-service-rmas/?viewAsMember=true" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://www.instagram.com/rmasbroker/" target="_blank" class="text-decoration-none">
+                    <i class="bi bi-instagram"></i> Instagram
+                </a>                
+                <a href="https://x.com/rmasbroker" target="_blank" class="text-decoration-none">
+                  <i class="bi bi-twitter-x"></i> X (Twitter)
+              </a>
+                <a href="https://wa.me/0277595009" target="_blank" class="text-decoration-none">
+                  <i class="bi bi-whatsapp"></i> WhatsApp
+              </a>
+            </div>
+        </div>
+    </div>
+    
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <!--<p class="who-we-are">Who We Are</p>-->
+            <h3>Vision</h3>
+            <p class="fst-italic">
+              To be among the best broking firms in Ghana and sub-region and recognized as an institution that offer service with diligence and professionalism.
+            </p>
+            <h3>Core Value</h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Prompt Service.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Diligence.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Professionalism.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6 about-images" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/about1.avif" class="img-fluid" alt="" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <div class="row gy-2">
+                  <div class="col-lg-12">
+                    <img src="assets/img/about2.jpg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-lg-12">
+                    <img src="assets/img/about3.jpg" class="img-fluid" alt="">
+                  </div>
+                  <!--<div class="col-lg-12">
+                    <img src="assets/img/about4.jpg" class="img-fluid" alt="">
+                  </div>-->
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <div><span>We offer the following services</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+                <h3>Risk Audit and advisory services</h3>
+              </a>
+              <p>RMAS provides tailored insurance solutions designed to meet the specific need of each client. To ensure the most appropriate recommendations, RMAS conducts a thorough analysis and review of client’s risk exposures taking into consideration the nature and type of business operation. 
+                Where there are existing insurance policies, the insurance audit enables RMAS to identify gaps if any in the insurance arrangement.
+                RMAS secures the widest possible covers to serve the unique needs of clients’ at the most competitive premium quotation.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+                <h3>Insurance Placement</h3>
+              </a>
+              <p>RMAS secures tailor-made products to satisfy the unique needs of each client after careful deliberation. Policies are arranged with selected insurance companies with regards to cost, technical and financial capacity, terms and conditions in favor of the client.
+              </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+                <h3> Claims Management</h3>
+              </a>
+              <p>The crux of insurance arrangement is claims management. 
+                RMAS’s capabilities are legend in regarding to claims management. 
+                RMAS assists client’s to complete all necessary documentation expeditiously.
+                After the submission of all claims documentation, RMAS provides the technical underpinnings for its clients and ensures claims are settled within the provisions of the cover provided.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+                <h3>Regulatory Compliance</h3>
+              </a>
+              <p>Some insurance policies are statutory requirements and hence mandatory. An assessment is carried out to ensure compliance with statutory requirements as provided in such laws as:-
+                <ul>  
+                  <li>Insurance Act 2021, (Act 1061)</li>  
+                  <li>Motor Vehicle (Third Party) Insurance Act. (1958)</li>  
+                  <li>Workmen Compensation Law, (1987)</li>  
+                  <li>Pensions Act, 2008 (ACT 766), as amended by National Pensions Law 2021</li>  
+                  <li>And other applicable Laws</li>  
+                </ul>  </p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+                <h3>Legal Services (Relating to insurance)</h3>
+              </a>
+              <p>RMAS offers legal services in relation to insurance and corporate governance.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">  
+            <div class="service-item position-relative">  
+                <img src="assets/img/logo_head.png">  
+            </div>  
+        </div>  <!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Brokerage Section -->
+    <section id="service" class="features section light-background">  
+      <!-- Section Title -->  
+      <div class="container section-title" data-aos="fade-up">  
+        <h2>Brokerage Services</h2>  
+        <div><span class="description-title">RMAS </span>offered/offers brokerage services to the following companies.</div> 
+      </div>  
+    
+      <div class="container">  
+        <div class="row gy-4">  
+    
+          <!-- First Row -->  
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">  
+                <h4>GOVERNMENT/ PARASTATAL INSTITUTIONS</h4>  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>Social Security & National Insurance Trust (SSNIT)</li>  
+                  <li>Ghana Ports and Harbours Authority (GPHA)</li>  
+                  <li>National Insurance Commission (NIC)</li>  
+                  <li>Ghana School of Law</li>  
+                  <li>Agence Francaise De Development</li>  
+                  <li>Ghana Institute of Management and Public Administration (GIMPA)</li>  
+                  <li>Ghana Incentive-Based Risk Sharing System for Agricultural Lending (GIRSAL)</li>  
+                  <li>Ghana Water Co. Ltd.</li>  
+                </ul>  
+              </div>  
+            </div>  
+          </div>  
+    
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">  
+                <h4>MANUFACTURING/ TELECOM</h4>  <!-- Corrected to <h4> -->  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>Impact Art Limited</li>  
+                  <li>Angel Data & Telecom Services</li>  
+                  <li>Latex Foam Rubber Products Ltd</li>  
+                  <li>Isada Concrete Ltd</li>  
+                  <li>Hexagon Industries Ltd</li>  
+                  <li>Twellium Industrial Company Ghana Ltd.</li>  
+                  <li>Sahdo Industries Ltd.</li>  
+                  <li>StarFood Co. Ltd.</li>  
+                  <li>Foodtech Co. Ltd</li>  
+                </ul>   
+              </div>  
+            </div>  
+          </div>  
+    
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">  
+                <h4>HOSPITALITY</h4>  <!-- Corrected to <h4> -->  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>Lancaster Hotel</li>  
+                  <li>The Royal Senchi Resort</li>  
+                  <li>Golden Bean Hotel</li>  
+                  <li>Sputnik Travel and Tours Ltd</li>  
+                  <li>Nustar Lodge Ltd</li>  
+                  <li>Hotel Stevens, Ho</li>  
+                  <li>Agblor Lodge</li>  
+                  <li>Dee-Gold Lodge</li>  
+                  <li>Gateway Hotel</li>  
+                </ul>    
+              </div>  
+            </div>  
+          </div>  
+    
+          <!-- Second Row -->  
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">  
+                <h4>ENERGY </h4>  <!-- Corrected to <h4> -->  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>Goil Plc.</li>  
+                  <li>Star Oil Ltd</li>  
+                  <li>Strategic Energy</li>  
+                  <li>Glory Oil Co. Ltd.</li>  
+                  <li>Oil Channel Ltd</li>  
+                  <li>Allied Oil Ltd</li>  
+                  <li>Trade Cross Ltd</li>  
+                  <li>Jubaili Bros. Ltd</li>  
+                  <li>Lucky Oil Company Ltd</li>  
+                  <li>Dzikson Co. Ltd.</li>  
+                  <li>Blanko Oil Ltd.</li>  
+                  <li>Bulk Oil Storage and Transportation Co. Ltd. (BOST)</li>  
+                </ul>  
+              </div>  
+            </div>  
+          </div>  
+    
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">  
+                <h4>AGRIC/ COMMERCE/ TRANSPORT</h4>  <!-- Corrected to <h4> -->  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>Takoradi Flour Mill Ltd</li>  
+                  <li>Logs &amp; Lumber Ltd</li>  
+                  <li>Samartex Timber &amp; Plywood Co. Ltd.</li>  
+                  <li>Aglow Agric Products Ltd</li>  
+                  <li>Zuma Trading</li>  
+                  <li>Western Textiles Ltd</li>  
+                  <li>All Office Ltd</li>  
+                  <li>Blanko Logistic Co. Ltd.</li>  
+                  <li>Arise Logistic Co. Ltd.</li>  
+                  <li>Universal Car Care Co. Ltd.</li>  
+                  <li>Ibrawud Co. Ltd.</li>  
+                  <li>StarLog Co. Ltd</li>  
+                  <li>Nutmeg Limited</li>  
+                  <li>Samiva Limited</li>  
+                </ul>   
+              </div>  
+            </div>  
+          </div>  
+    
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="700">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">  
+                <h4>FINANCIAL INSTITUTIONS</h4>  <!-- Corrected to <h4> -->  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>ARB Apex Bank Plc</li>  
+                  <li>Kpassa Rural Bank</li>  
+                  <li>Boulders Advisors Ltd</li>  
+                  <li>Anlo Rural Bank Ltd</li>  
+                  <li>XDS Data Ghana Ltd</li>  
+                </ul>    
+              </div>  
+            </div>  
+          </div>  
+
+          <!-- third Row -->  
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">  
+                <h4>MINING / CONSTRUCTION</h4>  <!-- Corrected to <h4> -->  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>Krane Construction Gh. Ltd</li>  
+                  <li>Mapp-H Construction Ltd</li>  
+                  <li>Ship Partner West Africa</li>  
+                  <li>Naine Trac Ghana Ltd</li>  
+                  <li>General Construction Company Limited</li>  
+                </ul>    
+              </div>  
+            </div>  
+          </div>  
+    
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="600">  
+            <div class="feature-box faq-item">  
+              <div class="faq-title">    
+                <h4>CONSULTANCY</h4>  <!-- Corrected to <h4> -->  
+                <i class="faq-toggle bi bi-chevron-right"></i>  
+              </div>  
+              <div class="faq-content">  
+                <ul>  
+                  <li>AB &amp; David Law</li>  
+                  <li>Pragma Solution Limited</li>  
+                  <li>Vista Architects</li>  
+                  <li>KE &amp; T Consult</li>  
+                </ul>  
+              </div>  
+            </div>  
+          </div>  
+    
+        </div>  
+      </div>  
+    
+        
+    
+    
+    </section><!-- /Features Section -->  
+    
+    <!-- client Section -->
+    <section id="" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>client</h2>
+        <div><span>Some Of Our</span> <span class="description-title">Clients</span></div>
+      </div><!-- End Section Title -->
+
+            <div id="partnersCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Carousel Inner -->
+                <div class="carousel-inner text-center">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row g-2">
+                            <div class="col-2">
+                              <img src="assets/img/clients/nic.jpg" class="img-fluid" alt="Partner 1 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                                <img src="assets/img/clients/allied.png" class="img-fluid" alt="Partner 2 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                                <img src="assets/img/clients/ab&david.jpg" class="img-fluid" alt="Partner 3 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                                <img src="assets/img/clients/acdi voca.webp" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                              <img src="assets/img/clients/anlo rural bank.png" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                          </div>
+                          <div class="col-2">
+                            <img src="assets/img/clients/de-luxy.jpg" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-2">
+                                <img src="assets/img/clients/Glory oil.jpg" class="img-fluid" alt="Partner 5 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                                <img src="assets/img/clients/goil.png" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                                <img src="assets/img/clients/golden.jpg" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                                <img src="assets/img/clients/GPHALOGO.png" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                            </div>
+                            <div class="col-2">
+                              <img src="assets/img/clients/krane.png" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                          </div>
+                          <div class="col-2">
+                            <img src="assets/img/clients/lancaster-accra.jpg" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                        </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                      <div class="row g-4">
+                          <div class="col-2">
+                              <img src="assets/img/clients/LATEX FOAM.jpg" class="img-fluid" alt="Partner 5 Logo" style="max-height: 100px; object-fit: contain;">
+                          </div>
+                          <div class="col-2">
+                              <img src="assets/img/clients/logs.png" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                          </div>
+                          <div class="col-2">
+                              <img src="assets/img/clients/Oilchannel_Logo.jpeg" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                          </div>
+                          <div class="col-2">
+                              <img src="assets/img/clients/Samartex Logo with name.jpg" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                          </div>
+                          <div class="col-2">
+                            <img src="assets/img/clients/samiva.jpg" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                        </div>
+                        <div class="col-2">
+                          <img src="assets/img/clients/senchi.jpg" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                      </div>
+                      </div>
+                  </div>
+                  <!-- Slide 4 -->
+                  <div class="carousel-item">
+                    <div class="row g-4">
+                        <div class="col-2">
+                            <img src="assets/img/clients/ssnit.png" class="img-fluid" alt="Partner 5 Logo" style="max-height: 100px; object-fit: contain;">
+                        </div>
+                        <div class="col-2">
+                            <img src="assets/img/clients/STAROIL.jpg" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                        </div>
+                        <div class="col-2">
+                            <img src="assets/img/clients/xds.jpg" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                        </div>
+                        <div class="col-2">
+                            <img src="assets/img/clients/twellium.png" class="img-fluid" alt="Partner 6 Logo" style="max-height: 100px; object-fit: contain;">
+                        </div>
+                        <div class="col-2">
+                          <img src="assets/img/clients/ARBapex.png" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">
+                      </div>
+                      <div class="col-2">
+                        <!--<img src="assets/img/clients/" class="img-fluid" alt="Partner 4 Logo" style="max-height: 100px; object-fit: contain;">-->
+                    </div>
+                    </div>
+                </div>
+                </div>
+    
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#partnersCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#partnersCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+    </section><!-- /client Section -->
+
+   <!--claim section-->
+    <section id=""class="">
+      <!-- Section Title -->  
+      <div class="container section-title" data-aos="fade-up">  
+        <h2>Claims</h2>  
+        <div>Some <span class="description-title">Major </span>Cliams Handled.</div> 
+      </div> 
+
+      <div class="container">
+      <table class="table table-bordered table-striped table-hover">
+        <thead>
+          <thead class="table-dark">
+            <tr>
+                <th>CLIENT</th>
+                <th>CLAIM TYPE</th>
+                <th>CLAIM AMOUNT (USD)</th>
+                <th>CLAIM AMOUNT (GH¢)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Samartex Timber & Plywood Co. Ltd.</td>
+                <td>Combined Business Policy</td>
+                <td>$3,750,000.00</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Hexagon Industries Ltd.</td>
+                <td>Fire Material Damage</td>
+                <td>$235,357.01</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Zakour Textiles Ltd.</td>
+                <td>Fire Material Damage</td>
+                <td>$57,628.58</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Polyworld Co. Ltd.</td>
+                <td>Fire</td>
+                <td>$58,079.20</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td rowspan="2">GHAPOHA</td>
+                <td>Group Life</td>
+                <td></td>
+                <td>GH¢ 692,364.21</td>
+            </tr>
+            <tr>
+                <td>Group Life</td>
+                <td></td>
+                <td>GH¢ 505,000.00</td>
+            </tr>
+            <tr>
+                <td>Kwanim Farms</td>
+                <td>Fire</td>
+                <td></td>
+                <td>GH¢ 16,000,000.00</td>
+            </tr>
+            <tr>
+                <td>The Royal Senchi</td>
+                <td>Flood</td>
+                <td></td>
+                <td>GH¢ 353,906.05</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Twellium Industrial Co. Ltd.</td>
+                <td>Motor</td>
+                <td></td>
+                <td>GH¢ 324,000.00</td>
+            </tr>
+            <tr>
+                <td>Motor</td>
+                <td></td>
+                <td>GH¢ 250,000.00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Ghana Oil Co. Ltd.</td>
+                <td>Assets All Risk</td>
+                <td></td>
+                <td>GH¢ 192,315.21</td>
+            </tr>
+            <tr>
+                <td>Assets All Risk</td>
+                <td></td>
+                <td>GH¢ 155,649.29</td>
+            </tr>
+            <tr>
+                <td>Star Oil Co. Ltd.</td>
+                <td>Motor</td>
+                <td></td>
+                <td>GH¢ 135,525.00</td>
+            </tr>
+        </tbody>
+    </table></div>
+    
+    </section><!--end of claims section-->
+    
+    <!-- FAQ Section -->
+<section id="features" class="faq section light-background">
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Partners</h2>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+    <div class="row gy-4">
+        <!-- Left Column: Note Section -->
+        <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+                <h3><span>Please </span><strong>Note</strong></h3>
+                <p>
+                    RMAS is licensed to deal with any Insurance Company. We always select the best or a combination of the best to ensure a holistic coverage for our client.
+                </p>
+            </div>
+        </div>
+
+        <!-- Right Column: FAQ Sections -->
+        <div class="col-md-6 col-lg-6">
+            <div class="row gy-4 d-flex flex-wrap">
+                
+                <!-- First FAQ Box -->
+                <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-box faq-item">
+                        <div class="faq-title">
+                            <i class="bi bi-check-circle text-success"></i>
+                            <h4>General Insurance </h4>
+                            <i class="faq-toggle bi bi-chevron-down"></i>
+                        </div>
+                        <div class="faq-content">
+                          <ul>
+                            <li>SIC Insurance PLC.</li>
+                            <li>Hollard Insurance Ghana Ltd.</li>
+                            <li>Star Assurance Co. Ltd.</li>
+                            <li>Vanguard Assurance Co. Ltd.</li>
+                            <li>Enterprise Insurance Co. Ltd.</li>
+                            <li>Donewell Insurance Co. Ltd.</li>
+                            <li>Phoenix Insurance Co. Ltd.</li>
+                            <li>Prime Insurance Co. Ltd.</li>
+                            <li>Glico General Insurance Co. Ltd.</li>
+                            <li>SanlamAllianz Insurance Ghana Ltd.</li>
+                            <li>Loyalty Insurance Co. Ltd.</li>
+                            <li>Imperial General Insurance Co. Ltd.</li>
+                            <li>Ghana Union Assurance Co. Ltd.</li>
+                            <li>Bedrock Insurance Co. Ltd.</li>
+                            <li>Activa Insurance Co. Ltd.</li>
+                            <li>Coronation Insurance Ghana Ltd.</li>
+                            <li>Millennium Insurance Co. Ltd.</li>
+                            <li>Nsia Ghana</li>
+                            <li>Priority Insurance Ltd.</li>
+                            <li>Provident Insurance Co. Ltd.</li>
+                            <li>Quality Assurance Co. Ltd.</li>
+                            <li>Serene Insurance Co. Ltd.</li>
+                            <li>Sunu Assurance Co. Ltd.</li>
+                            <li>Unique Insurance Co. Ltd.</li>
+                        </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second FAQ Box -->
+                <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-box faq-item">
+                        <div class="faq-title">
+                            <i class="bi bi-check-circle text-success"></i>
+                            <h4>Life Insurance</h4>
+                            <i class="faq-toggle bi bi-chevron-down"></i>
+                        </div>
+                        <div class="faq-content">
+                          <ul>
+                            <li>Enterprise Life Co. Ltd.</li>
+                            <li>GlicoLife Co. Ltd.</li>
+                            <li>Pinnacle Life Co. Ltd.</li>
+                            <li>Hollard Life Co. Ltd.</li>
+                            <li>SIC Life Co. Ltd.</li>
+                            <li>Metropolitan Life</li>
+                            <li>Prudential Life</li>
+                            <li>SanlamAllianz Life Ghana Ltd.</li>
+                            <li>StarLife Co. Ltd.</li>
+                            <li>Vanguard Life Co. Ltd.</li>
+                            <li>Milife Co. Ltd.</li>
+                            <li>Old Mutual Life Assurance Company Ghana</li>
+                            <li>Impact Life Insurance Limited Company.</li>
+                        </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third FAQ Box -->
+                <div class="col-md-6 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-box faq-item">
+                        <div class="faq-title">
+                            <i class="bi bi-check-circle text-success"></i>
+                            <h4>Medical & Health Insurance</h4>
+                            <i class="faq-toggle bi bi-chevron-down"></i>
+                        </div>
+                        <div class="faq-content">
+                          <ul>
+                            <li>Acacia Health Insurance Ltd.</li>
+                            <li>Premier Health Insurance</li>
+                            <li>Cosmopolitan Health Insurance</li>
+                            <li>Glico Healthcare Ltd.</li>
+                            <li>Apex Health</li>
+                            <li>Ace Medical</li>
+                            <li>Equity Health Insurance Limited</li>
+                            <li>Metropolitan Health Insurance Ghana Limited</li>
+                            <li>Nationwide Medical Health Insurance Scheme Limited</li>
+                        </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- End of inner row -->
+        </div> <!-- End of FAQ column -->
+        <div class="service-item  position-relative">
+          <h3>TECHNICAL PARTNERSHIPS </h3>
+        <p> RMAS is a proud member of various local and international professional eco-system made up of independent insurance companies, reinsurance companies, and insurance broking firm that support and enhance professionalism among member companies.
+          <ul>
+            <li>African Insurance Organization (AIO)</li>
+            <li>West African Insurance Companies Association (WAICA)</li>
+            <li>Insurance Brokers Association of Ghana (IBAG)</li>
+            <li>Chartered Insurance Institute Ghana (CIIG)</li>
+            <li>GBN Worldwide</li>
+            <li>WING Insurance</li>
+        </ul>
+        
+        </p>
+      </div>
+    
+    </div> <!-- End of main row -->
+</div>
+
+</div>
+</section><!-- /partners Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div><span class="description-title">Contact Us</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Off: 120 B, SpintexRoad Industrial Area.</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>0277595009, 0243961602, 0244315834</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>info@rmasgh.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-buildings"></i>
+              <div>
+                <h3>Branches</h3>
+                <p>Takradi Branch</p>
+                <p>Tema Branch</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-4">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+          <div class="col-lg-4">
+            <div>
+              <p>The company is manned by qualified and experienced professionals trained in Insurance, Law, Risk Management, and Advisory services. An added advantage is our strong working relationships with personnel from all major insurance companies, allowing us to efficiently facilitate processes and reduce turnaround times.</p>
+            <p>We invite you to utilize our services, as we consistently provide competitive quotes that help reduce your premium expenditures. Additionally, we conduct regular surveys to minimize your exposures and identify any coverage gaps, ensuring that you remain comprehensively insured.</p>
+           <p>We are pleased to be of service to you at <strong>NO ADDITIONAL COST</strong>.</p> 
+          </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+  <!-- JavaScript for Toggle Effect -->  
+  <script>  
+    document.querySelectorAll('.faq-title').forEach(item => {  
+      item.addEventListener('click', () => {  
+        const parent = item.parentElement;  
+        const icon = item.querySelector('.faq-toggle');  
+
+        parent.classList.toggle('faq-active');  
+        parent.querySelector('.faq-content').classList.toggle('show');  
+
+        // Toggle between chevron-right and chevron-down  
+        if (icon.classList.contains('bi-chevron-right')) {  
+          icon.classList.replace('bi-chevron-right', 'bi-chevron-down');  
+        } else {  
+          icon.classList.replace('bi-chevron-down', 'bi-chevron-right');  
+        }  
+      });  
+    });  
+  </script> 
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p><strong class="px-1 sitename">RMAS</strong> <span>Your Insurance Solution</span></p>
+      </div>
+      <div class="d-flex justify-content-center align-items-center flex-wrap gap-3 mt-5">
+        <a href="https://www.facebook.com/rmasbroker" target="_blank" class="text-decoration-none">
+            <i class="bi bi-facebook"></i> Facebook
+        </a>
+        <a href="https://www.linkedin.com/company/risk-management-advisory-service-rmas/?viewAsMember=true" target="_blank" class="text-decoration-none">
+            <i class="bi bi-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://www.instagram.com/rmasbroker/" target="_blank" class="text-decoration-none">
+            <i class="bi bi-instagram"></i> Instagram
+        </a>                
+        <a href="https://x.com/rmasbroker" target="_blank" class="text-decoration-none">
+          <i class="bi bi-twitter-x"></i> X (Twitter)
+      </a>
+        <a href="https://wa.me/0277595009" target="_blank" class="text-decoration-none">
+          <i class="bi bi-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+      <div class="credits">
+        Designed by <a href="">Digital Marketing Department - RMAS</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
