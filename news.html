@@ -97,7 +97,8 @@
           <li><a href="#" class="active">News</a></li>
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#features">Partners</a></li>
+          <li><a href="index.html#Partners">Partners</a></li>
+          <li><a href="index.html#Products">Products</a></li>
           <li><a href="index.html#contact">Contact</a></li>
           <li><a href="career.html">Career</a></li>
         </ul>
@@ -148,7 +149,7 @@
 
             <div class="service-box">
               <h4>Indusrty News</h4>
-              <div class="download-catalog">
+              <div class="services-list">
                 <a href="#" class="news-link" data-target="premium"> <i class="bi bi-arrow-right-circle"></i> <span>New Motor Insurance premium</span></a>
               </div>
             </div><!-- End Services List -->
@@ -165,8 +166,22 @@
           <div class="col-lg-8">
             <!-- Graphic Business Section -->
             <div id="graphic-business" class="news-section">
-            <img src="assets/img/news/larry.png" alt="" class="img-fluid services-img">
-            <h3>Risk Management and Advisory Services Ltd. (RMAS) is an insurance broking and risk management company. Our main objective is to take the client’s mind off all worries relating to risk exposures.</h3>
+              <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 20px;">
+                <!-- Content Div -->
+                <div style="flex: 1; min-width: 250px;">
+                    <h3>
+                        Risk Management and Advisory Services Ltd. (RMAS) is an insurance broking 
+                        and risk management company. Our main objective is to take the client’s 
+                        mind off all worries relating to risk exposures.
+                    </h3>
+                </div>
+            
+                <!-- Image -->
+                <img src="assets/img/news/larry.jpeg" alt="" class="img-fluid services-img"
+                     style="max-width: 250px; height: auto; object-fit: cover; border-radius: 10px;">
+            </div>
+            
+            
             <p>
               Our Vision is to be among the best Broking firms in Ghana and the sub-region and recognized as an institution that offers service with diligence and professionalism.
             </p>
@@ -251,7 +266,7 @@
 
           <!-- Premium Section -->
           <div id="premium" class="news-section" style="display: none;">
-            <h3 class="fw-bold text-primary">New Motor Third-Party Insurance Tariffs Announced in Ghana</h3>
+            <h3 class="fw-bold">New Motor Third-Party Insurance Tariffs Announced in Ghana</h3>
                     <p class="text-justify">
                         The <strong>National Insurance Commission (NIC)</strong> has introduced new motor third-party insurance tariffs, 
                         set to take effect on <strong>February 1, 2025</strong>. The revised rates reflect adjustments across various 
@@ -311,31 +326,35 @@
   <!-- JavaScript for Toggle Effect -->  
   <script>
     document.addEventListener("DOMContentLoaded", function () {
-        let newsLinks = document.querySelectorAll(".news-link");
-        let newsSections = document.querySelectorAll(".news-section");
+    let newsLinks = document.querySelectorAll(".news-link");
+    let newsSections = document.querySelectorAll(".news-section");
 
-        // Hide all sections except the first one
-        newsSections.forEach((section, index) => {
-            if (index !== 0) section.style.display = "none";
-        });
+    // Hide all sections except the first one and set the first link as active
+    newsSections.forEach((section, index) => {
+        section.style.display = index === 0 ? "block" : "none";
+    });
 
-        // Add click event to each news link
-        newsLinks.forEach(link => {
-            link.addEventListener("click", function (e) {
-                e.preventDefault();
-                let targetId = this.getAttribute("data-target");
+    newsLinks[0].classList.add("active"); // Set first link as active
 
-                // Hide all news sections
-                newsSections.forEach(section => {
-                    section.style.display = "none";
-                });
+    // Add click event to each news link
+    newsLinks.forEach(link => {
+        link.addEventListener("click", function (e) {
+            e.preventDefault();
+            let targetId = this.getAttribute("data-target");
 
-                // Show the selected section
-                document.getElementById(targetId).style.display = "block";
-            });
+            // Hide all news sections
+            newsSections.forEach(section => section.style.display = "none");
+
+            // Show the selected section
+            document.getElementById(targetId).style.display = "block";
+
+            // Remove active class from all links and add to the clicked one
+            newsLinks.forEach(l => l.classList.remove("active"));
+            this.classList.add("active");
         });
     });
-</script>
+});
+  </script>
 
     
 
